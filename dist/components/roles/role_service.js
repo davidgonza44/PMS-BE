@@ -1,0 +1,10 @@
+import { BaseService } from "../../utils/base_service.js";
+import { DatabaseUtil } from "../../utils/db.js";
+import { Roles } from "./roles_entity.js";
+export class RolesService extends BaseService {
+    constructor() {
+        const db = new DatabaseUtil();
+        const repository = db.getRepository(Roles);
+        super(repository);
+    }
+}

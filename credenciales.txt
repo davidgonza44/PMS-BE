@@ -1,0 +1,8 @@
+EMAIL = admin@pms.com
+PASSWORD = Admin@pms123
+
+ "email": "davidgonp1234@gmail.com",
+    "username": "davidgonza",
+    "password": "David123#",
+    "fullaname" : "David González",
+    "role_ids": ["60b95256-461c-4847-8151-ea82af3780ea"]

@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "nodenext",
+        "moduleResolution" : "nodenext",
+        "pretty": true,
+        "sourceMap": false,
+        "target":"ESNext",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "removeComments": true,
+        "types": ["node", "jest"],
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": true,
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "incremental": true,
+        "tsBuildInfoFile": ".tsbuildinfo",
+        "isolatedModules": true
+    },
+
+    "include": [
+        "src/**/*" //archivos ts dentro de src incluidas subcarpetas
+    ],
+    "exclude": ["node_modules", "dist", "build"],
+    "ts-node": {
+        "files": true
+    }
+}
